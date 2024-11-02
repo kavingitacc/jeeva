@@ -84,4 +84,14 @@ document.getElementById("printButton").addEventListener("click", function () {
     document.body.innerHTML = originalContents;
     window.location.reload(); // Reload page to reset form
 });
+// Add event listeners for the print button
+document.getElementById("printButton").addEventListener("click", function () {
+    alert("Print button clicked!"); // Test if the click works
+    printBill(); // Call the print function
+});
 
+// Also handle touch events for mobile devices
+document.getElementById("printButton").addEventListener("touchstart", function () {
+    alert("Print button clicked!"); // Test if the touch works
+    printBill(); // Call the print function
+});
