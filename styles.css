@@ -1,0 +1,92 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif; /* Set font for the body */
+}
+
+/* Container Styles */
+.container {
+    max-width: 600px; /* Maximum width of the container */
+    margin: 20px auto; /* Center the container with margin */
+    padding: 20px; /* Padding inside the container */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center; /* Center align the heading */
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+/* Label Styles */
+label {
+    display: block; /* Block display for labels */
+    font-weight: bold; /* Bold font for labels */
+}
+
+/* Input Styles */
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="text"] {
+    width: 100%; /* Full width for input fields */
+    padding: 8px; /* Padding inside input fields */
+    box-sizing: border-box; /* Box-sizing to include padding in width */
+}
+
+/* Button Styles */
+button {
+    display: block; /* Block display for button */
+    width: 100%; /* Full width for button */
+    padding: 10px; /* Padding inside button */
+    margin-top: 20px; /* Space above button */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border for button */
+    border-radius: 4px; /* Rounded corners for button */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Bill Output Styles */
+.bill-output {
+    margin-top: 20px; /* Space above the bill output */
+    padding: 15px; /* Padding inside bill output */
+    border-top: 1px solid #ddd; /* Top border for bill output */
+}
+
+/* Print Layout Styles */
+@page {
+    size: A5; /* Set the paper size to A5 */
+    margin: 10mm; /* Adjust margins as needed */
+}
+
+.print-layout {
+    display: flex; /* Flex display for layout */
+    gap: 50px; /* Space between copies */
+    justify-content: space-between; /* Space between items */
+    padding: 20px; /* Padding inside print layout */
+}
+
+/* Bill Copy Styles */
+.bill-copy {
+    padding: 10px; /* Padding inside bill copy */
+    width: 30%; /* Width for each bill copy */
+    text-align: left; /* Left align text in bill copy */
+}
+
+/* Bill Copy Heading Styles */
+.bill-copy h2 {
+    text-align: center; /* Center align heading in bill copy */
+    margin-top: 0; /* No margin at the top */
+}
+
